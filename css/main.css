@@ -1,5 +1,6 @@
 :root {
    --primary-color:#062863;
+   --white:#fff;
 }
 
 * {
@@ -24,4 +25,15 @@ header{
 header img {
    margin: 4.5rem 0;
    width: 170px;
+}
+
+main {
+   margin: 0 2%; 
+}
+
+form {
+   margin: 0 auto;
+   max-width: 448px;
+   min-height: 925px;
+   background-color:var(--white);
 }
