@@ -3,6 +3,7 @@
    --primary-color-light: #083E9E;
    --primary-color-lighter: #1F50A7;
    --secondary-color: #4A5568;
+   --secondary-color-light:#9FA3AA;
    --white:#fff;
    --almost-white: #EDF2F7;
 }
@@ -93,7 +94,6 @@ input[type=submit]:hover{
    background-color: var(--primary-color);
 }
 
-
 footer {
    margin: 3rem 0;
 }
@@ -104,5 +104,5 @@ footer a{
 }
 
 footer a:hover {
-   color: #9FA3AA;
+   color: var(--secondary-color-light);
 }
