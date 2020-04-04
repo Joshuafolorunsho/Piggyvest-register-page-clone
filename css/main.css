@@ -30,6 +30,7 @@ header, footer{
 }
 
 .circle, .j, .invertedj, .angle {
+   display: none;
    position: absolute;
    width: 21.5rem;
 }
@@ -63,6 +64,13 @@ main {
    margin: 0 2%; 
 }
 
+
+/* utility classes */
+.text-center {
+   text-align: center;;
+}
+
+
 form {
    margin: 0 auto;
    padding: 0 4rem;
@@ -71,7 +79,6 @@ form {
    border-radius: 2rem 2rem 2rem 0;
 }
 form .form-info{
-   text-align: center;
    padding: 3rem 0;
 }
 
@@ -131,4 +138,10 @@ footer a{
 
 footer a:hover {
    color: var(--secondary-color-light);
+}
+
+@media only screen and (min-width: 768px) {
+   .circle, .j, .invertedj, .angle {
+      display: block;
+   }
 }
