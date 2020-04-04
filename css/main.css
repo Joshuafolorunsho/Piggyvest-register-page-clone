@@ -1,5 +1,6 @@
 :root {
    --primary-color:#062863;
+   --primary-color-light: #1F50A7;
    --white:#fff;
 }
 
@@ -16,6 +17,7 @@ html{
 body{
    font-family: 'Sen', sans-serif;
    background-color: var(--primary-color);
+   font-size: 1.3rem;
 }
 
 header{
@@ -33,7 +35,34 @@ main {
 
 form {
    margin: 0 auto;
+   padding: 0 4rem;
    max-width: 448px;
-   min-height: 925px;
+   /* min-height: 925px; */
    background-color:var(--white);
+}
+form .form-info{
+   text-align: center;
+   padding: 3rem 0;
+}
+
+form h2 {
+   color: var(--primary-color-light);
+}
+form label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: .4rem;
+}
+
+form input, form select {
+   height: 37px;
+   width: 100%;
+}
+
+.form-control {
+   margin-bottom: 3rem;
+}
+
+input[type=submit]{
+   margin-bottom: 3rem;
 }
