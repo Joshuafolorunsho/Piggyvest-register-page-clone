@@ -29,33 +29,31 @@ header, footer{
    text-align: center;
 }
 
-.circle{
+.circle, .j, .invertedj, .angle {
    position: absolute;
+   width: 21.5rem;
+}
+
+.circle{
    top: -12rem;
    left: -1.7rem;
 }
 
 .invertedj{
-   position: absolute;
    top: -5rem;
    right: -11rem;
 }
 
 .j {
-   position: absolute;
    left: -6.5rem;
    bottom: -5rem;
 }
 
 .angle{
-   position: absolute;
    right: -8rem;
    bottom: -2rem;
 }
 
-.circle, .j, .invertedj, .angle {
-   width: 21.5rem;
-}
 header img {
    margin: 4.4rem 0;
    width: 17rem;
