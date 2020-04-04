@@ -29,7 +29,7 @@ header, footer{
 
 header img {
    margin: 4.4rem 0;
-   width: 170px;
+   width: 17rem;
 }
 
 main {
@@ -39,9 +39,9 @@ main {
 form {
    margin: 0 auto;
    padding: 0 4rem;
-   max-width: 448px;
+   max-width: 44.8rem;
    background-color:var(--white);
-   border-radius: 20px 20px 20px 0px;
+   border-radius: 2rem 2rem 2rem 0;
 }
 form .form-info{
    text-align: center;
@@ -84,7 +84,7 @@ input[type=submit]{
    color: var(--white);
    font-weight: bold;
    height: 5rem;
-   border-radius: 10px 10px 10px 0px;
+   border-radius: 1rem 1rem 1rem 0;
    cursor: pointer;
    transition: background-color .2s ease-in;
 }
