@@ -25,7 +25,7 @@ body{
    overflow-x: hidden;
 }
 
-.circle, .j, .invertedj, .angle {
+.circle,.invertedj{
    display: none;
    position: absolute;
    width: 21.5rem;
@@ -39,16 +39,6 @@ body{
 .invertedj{
    top: -5rem;
    right: -11rem;
-}
-
-.j {
-   left: -6.5rem;
-   bottom: -5rem;
-}
-
-.angle{
-   right: -8rem;
-   bottom: -2rem;
 }
 
 header img {
@@ -137,7 +127,7 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-   .circle, .j, .invertedj, .angle {
+   .circle, .invertedj {
       display: block;
    }
 }
