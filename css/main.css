@@ -25,22 +25,6 @@ body{
    overflow-x: hidden;
 }
 
-.circle,.invertedj{
-   display: none;
-   position: absolute;
-   width: 21.5rem;
-}
-
-.circle{
-   top: -12rem;
-   left: -1.7rem;
-}
-
-.invertedj{
-   top: -5rem;
-   right: -11rem;
-}
-
 header img {
    margin: 4.4rem 0;
    width: 17rem;
@@ -124,10 +108,4 @@ footer a{
 
 footer a:hover {
    color: var(--secondary-color-light);
-}
-
-@media only screen and (min-width: 768px) {
-   .circle, .invertedj {
-      display: block;
-   }
 }
