@@ -1,7 +1,10 @@
 :root {
    --primary-color:#062863;
-   --primary-color-light: #1F50A7;
+   --primary-color-light: #083E9E;
+   --primary-color-lighter: #1F50A7;
+   --secondary-color: #4A5568;
    --white:#fff;
+   --almost-white: #EDF2F7;
 }
 
 * {
@@ -20,12 +23,12 @@ body{
    font-size: 1.3rem;
 }
 
-header{
+header, footer{
    text-align: center;
 }
 
 header img {
-   margin: 4.5rem 0;
+   margin: 4.4rem 0;
    width: 170px;
 }
 
@@ -37,26 +40,38 @@ form {
    margin: 0 auto;
    padding: 0 4rem;
    max-width: 448px;
-   /* min-height: 925px; */
    background-color:var(--white);
+   border-radius: 20px 20px 20px 0px;
 }
 form .form-info{
    text-align: center;
    padding: 3rem 0;
 }
 
+.form-info > p{
+   padding: .2rem;
+   color: var(--secondary-color);
+}
+
 form h2 {
-   color: var(--primary-color-light);
+   color: var(--primary-color-lighter);
 }
 form label {
    display: block;
    font-weight: bold;
-   margin-bottom: .4rem;
+   margin-bottom: .6rem;
+   color: var(--secondary-color);
+   font-size: 1.2rem;
 }
 
 form input, form select {
-   height: 37px;
+   height: 4.2rem;
    width: 100%;
+   padding: 0 .7rem;
+   background-color: var(--almost-white);
+   font-family: inherit;
+   border: none;
+   border-radius: .3rem;
 }
 
 .form-control {
@@ -65,4 +80,29 @@ form input, form select {
 
 input[type=submit]{
    margin-bottom: 3rem;
+   background-color: var(--primary-color-light);
+   color: var(--white);
+   font-weight: bold;
+   height: 5rem;
+   border-radius: 10px 10px 10px 0px;
+   cursor: pointer;
+   transition: background-color .2s ease-in;
+}
+
+input[type=submit]:hover{
+   background-color: var(--primary-color);
+}
+
+
+footer {
+   margin: 3rem 0;
+}
+
+footer a{
+   text-decoration: none;
+   color: var(--white);
+}
+
+footer a:hover {
+   color: #9FA3AA;
 }
