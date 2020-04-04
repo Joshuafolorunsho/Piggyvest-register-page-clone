@@ -22,12 +22,40 @@ body{
    font-family: 'Sen', sans-serif;
    background-color: var(--primary-color);
    font-size: 1.3rem;
+   overflow-x: hidden;
 }
 
 header, footer{
    text-align: center;
 }
 
+.circle{
+   position: absolute;
+   top: -12rem;
+   left: -1.7rem;
+}
+
+.invertedj{
+   position: absolute;
+   top: -50px;
+   right: -110px;
+}
+
+.j {
+   position: absolute;
+   left: -65px;
+   bottom: -50px;
+}
+
+.angle{
+   position: absolute;
+   right: -80px;
+   bottom: -20px;
+}
+
+.circle, .j, .invertedj, .angle {
+   width: 21.5rem;
+}
 header img {
    margin: 4.4rem 0;
    width: 17rem;
