@@ -23,12 +23,6 @@ body {
 	font-size: 1.3rem;
 	overflow-x: hidden;
 	background-color: var(--primary-color);
-	background-image: url('../images/circle.png'), url('../images/Inverted\ J.png'),
-		url('../images/J.png'), url('../images/angle\ bracket.png');
-	background-position: -1% -15%,  108% -1%, -5% 108%, 107% 105%;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: 21rem 21rem;
 }
 
 header img {
@@ -113,4 +107,16 @@ footer a {
 
 footer a:hover {
 	color: var(--secondary-color-light);
+}
+
+@media only screen and (min-width: 900px) {
+	body {
+		background-image: url('../images/circle.png'),
+			url('../images/Inverted\ J.png'), url('../images/J.png'),
+			url('../images/angle\ bracket.png');
+		background-position: -1% -15%, 108% -1%, -5% 108%, 107% 105%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 21rem 21rem;
+	}
 }
