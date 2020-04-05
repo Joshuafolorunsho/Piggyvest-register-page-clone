@@ -42,7 +42,7 @@ main {
 form {
 	margin: 0 auto;
 	padding: 0 4rem;
-	max-width: 41rem;
+	max-width: 40rem;
 	background-color: var(--white);
 	border-radius: 2rem 2rem 2rem 0;
 }
