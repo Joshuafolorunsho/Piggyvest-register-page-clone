@@ -23,6 +23,7 @@ body{
    background-color: var(--primary-color);
    font-size: 1.3rem;
    overflow-x: hidden;
+   background-image: url('../images/circle.png'), url('../images/Inverted\ J.png'), url('../images/J.png'), url('../images/angle\ bracket.png')
 }
 
 header img {
